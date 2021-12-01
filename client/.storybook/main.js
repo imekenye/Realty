@@ -9,6 +9,15 @@ module.exports = {
         "@storybook/addon-controls",
         "@storybook/addon-knobs",
         "storybook-addon-styled-component-theme/dist/register",
+
+        {
+            name: "@storybook/addon-postcss",
+            options: {
+                postcssLoaderOptions: {
+                    implementation: require("postcss"),
+                },
+            },
+        },
     ],
     webpackFinal: async (config) => {
         return config;
