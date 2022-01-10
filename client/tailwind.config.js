@@ -112,5 +112,5 @@ module.exports = {
     variants: {
         extend: {},
     },
-    // plugins: ["@tailwindcss/forms", "tailwindcss-breakpoints-inscpector"],
+    // plugins: ["@tailwindcss/forms", "tailwindcss-breakpoints-inspector"],
 };
