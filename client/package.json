@@ -41,7 +41,7 @@
         "styled-components": "^5.3.3",
         "swr": "^1.0.1",
         "tailwindcss": "^2.2.19",
-        "tailwindcss-breakpoints-inscpector": "^1.0.0",
+        "tailwindcss-breakpoints-inspector": "^1.0.0",
         "upgrade": "^1.1.0"
     },
     "devDependencies": {
